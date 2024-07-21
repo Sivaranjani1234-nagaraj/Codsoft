@@ -4,11 +4,12 @@
     padding: 0;
 }
 body{
+    background-image: url(webdesign.jpg);
     font-family: "poppins", sans-serif;
     --color1: #fff;
-    --color2: #181801;
+    --color2: #181818;
 }
-.naga{
+.siva{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -18,10 +19,6 @@ body{
     background-color: var(--color2);
     color: aqua;
     padding: 12px 20px;
-}
-.logo img{ 
-    width: 40px;
-    
 }
 .menu{display: flex;}
 .menu li{padding-left: 30px;}
@@ -80,49 +77,57 @@ body{
     .open-menu, .close-menu{display: block;}
     #check:checked ~ .menu{right: 0;}
 }
-.search{
-    width: 100%;
-    min-height: 100vh;
-    padding: 5%;
-    background-image: url(hand.jpeg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+.detail{
+    margin-left: 10% ;
+    margin-top: 12%;
+
 }
-.search-bar{
-    width: 100%;
-    max-width: 700px;
-    z-index: 100;
-    background: rgba(255, 255, 255, 0.2);
-    display: flex;
-    align-items: center;
-    border-radius: 60px;
-    padding: 10px 10px;
-    backdrop-filter: blur(4px) saturate(180%);
+.detail h1{
+    font-size: 50px;
+    color: purple;
+    margin-bottom: 20px;
 }
-.search-bar input{
-    background: transparent;
-    flex: 1;
-    border: 0;
-    outline: none;
-    padding: 24px 20px;
-    font-size: 20px;
-    color: black;
+span{
+    color: blueviolet;
 }
-::placeholder{
-    color: black;
+.detail p{
+    color: orangered;
+    line-height: 22px;
 }
-.search-bar button  img{
-      width: 25px;     
+.detail a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
 }
-.search-bar button{
-    border: 0;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    background: #58629b;
-    cursor: pointer;
-}  
-  
+.image{
+    width: 39% ;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 1%;
+}
+.image img{
+    height: 98%;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    transition: bottom ls,left ls;
+}
+.image:hover .girl{
+    left: 45%;
+}
+
+
+
+
+
+
+
+
+
